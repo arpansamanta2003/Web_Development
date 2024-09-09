@@ -1,0 +1,47 @@
+:root{
+    --primary: #FEA116;
+}
+
+/* Food Menu */
+.nav-pills .nav-item .first.active {
+    border-bottom: 2.5px solid var(--primary);
+    width: 165px;
+}
+.nav-pills .nav-item .active {
+    border-bottom: 2.5px solid var(--primary);
+    width: 130px;
+}
+
+.food-menu{
+    font-size: 3rem;
+    font-family:cursive;
+}
+.popular-item{
+    font-size: 4rem;
+}
+.nav-item{
+    font-size: 2rem;
+    width: 200px;
+    padding-left: 40px;
+}
+
+.mt-n1{
+    font-size: 2.5rem;
+}
+
+.vl{
+    border-bottom: 3px solid green;
+    width: 200px;
+}
+
+/* Menu Content */
+.groove-border{
+    padding: 10px;
+    border: 8px double black;
+}
+.items h5{
+    font-size: 22px;
+}
+.items small{
+    font-size: 15px;
+}
